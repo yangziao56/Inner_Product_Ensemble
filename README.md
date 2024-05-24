@@ -1,1 +1,6 @@
-# Inner_Product_Ensemble
+# IP-Ensemble
+
+
+## Install Package
+pip install -r requirements.txt
+
