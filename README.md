@@ -1,29 +1,23 @@
-<p align="center">
-  <img src="assets/readme-banner.svg" width="100%" alt="IP Ensemble — First-order influence. Richer insights." />
-</p>
+![IP Ensemble: Influence, without the Hessian.](assets/readme-banner.svg)
 
-### Revisit, Extend, and Enhance Hessian-Free Influence Functions
+## Revisit, Extend, and Enhance Hessian-Free Influence Functions
 
-**Ziao Yang**, Han Yue, Jian Chen, and Hongfu Liu
+**Ziao Yang**, Han Yue, Jian Chen, and Hongfu Liu  
+*Transactions on Machine Learning Research · 2026*
 
-**Transactions on Machine Learning Research (TMLR), 2026**
+[Read the PDF](https://arxiv.org/pdf/2405.17490) &nbsp; / &nbsp; [Paper](https://arxiv.org/abs/2405.17490)
 
-**[PDF](https://arxiv.org/pdf/2405.17490)** · **[Paper](https://arxiv.org/abs/2405.17490)** · **[Explore code](#explore-the-code)**
+Explore first-order influence estimation and IP Ensemble across **model utility, fairness, and robustness**.
 
----
+### Inside the research
 
-Explore first-order influence estimation and IP Ensemble across model utility, fairness, and robustness.
+**Synthetic experiments** — Start with [`SEC-4-1.py`](synthetic%26adversarial/SEC-4-1.py) for the synthetic-data setup.
 
-## Explore the code
+**Adversarial experiments** — Follow [`run_adversarial.py`](synthetic%26adversarial/run_adversarial.py) and its [launcher](synthetic%26adversarial/run_adversarial.sh).
 
-| Area | Entry point |
-| :--- | :--- |
-| Synthetic experiments | [`synthetic&adversarial/SEC-4-1.py`](synthetic%26adversarial/SEC-4-1.py) |
-| Adversarial experiments | [`run_adversarial.py`](synthetic%26adversarial/run_adversarial.py) · [`run_adversarial.sh`](synthetic%26adversarial/run_adversarial.sh) |
-| Fairness and robustness objectives | [`fair_fn.py`](synthetic%26adversarial/fair_fn.py) · [`robust_fn.py`](synthetic%26adversarial/robust_fn.py) |
-| NLP resources | [`ResponsibleNLP/`](ResponsibleNLP/) |
+**Fairness & robustness** — The objective functions live in [`fair_fn.py`](synthetic%26adversarial/fair_fn.py) and [`robust_fn.py`](synthetic%26adversarial/robust_fn.py). NLP resources are collected in [`ResponsibleNLP/`](ResponsibleNLP/).
 
-## Getting started
+### Working with the code
 
 ```bash
 git clone https://github.com/yangziao56/Inner_Product_Ensemble.git
